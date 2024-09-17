@@ -11,7 +11,7 @@ public class Test
         savings.deposit(10000);
         System.out.println(savings.getBalance());
         savings.logOut();
-        System.out.println(savings.toString());
+        System.out.println(savings);
     }
 }
 
